@@ -1,0 +1,31 @@
+body {
+	color:	hsl(250 55% 18%);
+	font-family: verdana, sans-serif;
+}
+table, tr, td, th {
+	border: 1px solid black;
+	color:	hsl(250 55% 18%);
+	font-family: verdana, sans-serif;
+}
+th {
+	padding: 10px;
+}
+caption {
+	padding: 10px;
+	font-weight: bold;
+}
+.zag {
+	background-color: hsl(0 70% 73%);
+}
+.than {
+	background-color: hsl(260 70% 73%);
+}
+.meg {
+	background-color: hsl(190 70% 73%);
+}
+#win {
+	background-color: hsl(47 81% 81%);
+}
+col:first-child {
+	background-color: hsl(190 70% 90%);
+}
