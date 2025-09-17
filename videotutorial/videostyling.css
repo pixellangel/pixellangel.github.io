@@ -1,0 +1,25 @@
+body {
+	font-family:tebuchet ms, verdana, sans-serif;
+	background-image: url("gridbackground1.png");
+	background-color:hsl(218 85% 57%);
+	color:white;
+}
+li {
+	padding:10px;
+}
+img {
+	padding:10px;
+	width:500px;
+}
+iframe {
+	padding-left:20px;
+}
+h1 {
+	padding:20px;
+}
+p {
+	padding-left:10px;
+}
+.steps {
+	font-weight:bold;
+}
