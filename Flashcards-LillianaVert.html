@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>MLA Flashcards</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Lilliana Vert">
+		
+		<link rel="stylesheet" type="text/css" href="videostyling.css">
+	</head>
+	<style>
+		@keyframes colorchange {
+			from {color: black;}
+			to {color:hsl(246 77.3% 38%);}
+		}
+		body {
+			font-family: trebuchet ms, sans-serif;
+		}
+		section {
+			animation-name: colorchange;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		h1 {
+			margin: 20px;
+		}
+		.cards {
+			border: 3px dashed black;
+			width: 400px;
+			height: 175px;
+			margin: 20px;
+			background-color:hsl(194 77.3% 89.3%);
+		}
+		.question {
+			font-size: 20px;
+			text-align: center;
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+		.answer {
+			font-size: 20px;
+			color:hsl(246 77.3% 32%);
+			text-align: center;
+			padding-right: 20px;
+			padding-left: 20px;
+			opacity: 0;
+			transition: opacity 1.5s;
+		}
+		.answer:hover {
+			opacity: 1;
+		}
+		.info {
+			font-size: 20px;
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+	</style>
+
+	<body>
+		<section>
+		<h1>MLA Format - Flashcards</h1>
+			<p class="info">Hover your cursor under each question to reveal the answer!</p>
+		</section>
+		<div class="cards">
+			<p class="question">What size should the text in your essay be?</p>
+			<p class="answer">12px</p>
+		</div>
+		<div class="cards">
+			<p class="question">What should the last page of ANY essay be?</p>
+			<p class="answer">a Works Cited page</p>
+		</div>
+		<div class="cards">
+			<p class="question">What should you use your word processor's header feature for?</p>
+			<p class="answer">page numbers in the top right corner of each page</p>
+		</div>
+		<div class="cards">
+			<p class="question">Which line spacing option should you choose?</p>
+			<p class="answer">double-spaced, no extra space after each paragraph</p>
+		</div>
+		<div class="cards">
+			<p class="question">Which fonts are acceptable?</p>
+			<p class="answer">any neutral and easily legible font, like Times New Roman</p>
+		</div>
+		<div class="cards">
+			<p class="question">What size should your margins and indents be?</p>
+			<p class="answer">1-inch margins, 0.5-inch indents</p>
+		</div>
+		<div class="cards">
+			<p class="question">What should the header in the top left of the first page contain?</p>
+			<p class="answer">your name, your instructor's name, the subject the essay is for, and the date</p>
+		</div>
+		<div class="cards">
+			<p class="question">True or False: The title of your essay should be distinguished from
+			the rest of the text with styling, like bolding or italics.</p>
+			<p class="answer">False</p>
+		</div>
+	</body>
