@@ -1,0 +1,78 @@
+body {
+	font-family:Trebuchet MS, sans-serif;
+	color:hsl(244 63% 18%);
+	background-image: url("gridteal.png");
+}
+p {
+	font-size: 120%;
+	margin: 20px;
+}
+table, tr, td, th, caption {
+	border: 1px solid hsl(219 86.2% 27.5%);
+	font-size: 105%;
+	background-color:hsl(197 100% 90%);
+	padding:5px;
+}
+table {
+	margin:20px;
+}
+a {
+	color:hsl(206 100% 40.2%);
+	background-color:hsl(197 100% 83.5%);
+	padding:3px;
+	font-weight:bold;
+	margin-top: 1px;
+	margin-bottom: 6px;
+}
+
+h1, h2 {
+	margin:20px;
+	border-bottom:5px dashed hsl(197 100% 83.5%);
+}
+
+.infodiv {
+
+}
+.featuredimg {
+	display: inline;
+	height: 400px;
+}
+.pageheader {
+	background-color:hsla(200 85% 68% / 0.5);
+	padding-top: 1px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border:2px solid hsl(197 100% 83.5%);
+}
+.title1 {
+	font-size:150%;
+	color:hsl(219 86.2% 27.5%);
+	font-weight:bold;
+}
+.title2 {
+	font-size:120%;
+	font-style:italic;
+	color:hsl(205 60.8% 39.2%);
+}
+.okay {
+	background-color:hsl(59 93.8% 85.2%);
+}
+.fair {
+	background-color:hsl(79 93.8% 85.2%);
+}
+.good {
+	background-color:hsl(101 93.8% 85.2%);
+}
+.great {
+	background-color:hsl(129 93.8% 85.2%);
+}
+
+img, iframe {
+	margin:10px;
+	border:5px dashed hsl(197 100% 83.5%);
+}
+
+form {
+	margin:20px;
+}
